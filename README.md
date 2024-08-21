@@ -1,6 +1,7 @@
-![Captura de tela 2024-08-21 144744](https://github.com/user-attachments/assets/0be5c410-9f53-4a16-97d2-5ae53bda2669)
+![Captura de tela 2024-08-21 144839](https://github.com/user-attachments/assets/de1dd15f-7c36-4ebe-a5db-022fbf153cd0)![Captura de tela 2024-08-21 144744](https://github.com/user-attachments/assets/0be5c410-9f53-4a16-97d2-5ae53bda2669)
 ![Captura de tela 2024-08-21 144802](https://github.com/user-attachments/assets/8a82db64-f425-45f0-9b2c-086f509c5000)
-![Uploading Captura de tela 2024-08-21 144839.png…]()
+![Captura de tela 2024-08-21 144839](https://github.com/user-attachments/assets/6aed034f-f1a8-4c30-b5ca-d9576a559381)
+
 
 # Getting Started with Create React App
 
