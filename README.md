@@ -1,4 +1,4 @@
-[Captura de tela 2024-08-21 144744](https://github.com/user-attachments/assets/0be5c410-9f53-4a16-97d2-5ae53bda2669)
+![Captura de tela 2024-08-21 144744](https://github.com/user-attachments/assets/e8603779-9662-4ecf-9ebc-23a718350789)
 
 ![Captura de tela 2024-08-21 144802](https://github.com/user-attachments/assets/8a82db64-f425-45f0-9b2c-086f509c5000)
 
