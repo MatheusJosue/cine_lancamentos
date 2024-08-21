@@ -1,0 +1,30 @@
+.titleTrailer{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.imgSize{
+    width: 120px;
+    height: 120px;
+}
+
+.justifyCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.custom-modal .modal-content {
+    background-color: #8890a3;
+  }
+  
+  .custom-modal .modal-header {
+    background-color: #8890a3;
+  }
+  
+  .custom-modal .modal-footer {
+    background-color: #8890a3;
+  }

@@ -1,0 +1,250 @@
+.App-header {
+    background: linear-gradient(#121212,#212b46);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.divInputs{
+    display: flex;
+    justify-content: center;
+}
+
+.containerInput{
+    background-color: rgb(229 229 229);
+    padding: 15px;
+    margin: 22px 0;
+    display: flex;
+    border-radius: 8px;
+}
+
+.containerInputToggle{
+    background-color: #4c5366;
+    padding: 15px;
+    margin: 22px 0;
+    display: flex;
+    border-radius: 8px;
+}
+
+.containerInput input, span{
+    background-color: transparent;
+    border:0;
+    font-size: 20px;
+    outline: none;
+    color:#000000;
+}
+
+.inputSearch{
+    width: 50%;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform .5s;
+}
+  
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    animation: flipTitle 2s;
+    color: white;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+      }to{
+        transform: rotateX(0deg);
+      }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #4c5366;
+}
+
+.card:hover{
+    background-color: #666e81;
+    box-shadow: rgba(219, 219, 219, 0.3) 0px 19px 38px, rgba(223, 223, 223, 0.22) 0px 15px 12px;
+    margin-top: 20px;
+}
+
+.titleFilm{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.filmImage{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.positionAbsolute{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.sizeImg{
+    width: 100px;
+}
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.white{
+    color: white;
+}
+
+.sizeIcon{
+    font-size: 2rem;
+}
+
+.cardError{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.rowErrorHeight{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionFilm{
+    color: white;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    color: white;
+    border: 2px solid white;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4c5366;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666e81;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left: 0;
+    right: 3px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 6px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
